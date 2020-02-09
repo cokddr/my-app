@@ -18,7 +18,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint '**/*.{js,ts,tsx}'",
     "prettier": "prettier --write \"**/*.{js,json,ts,tsx}\"",
-    "docs": "start-storybook"
+    "docs": "start-storybook",
+    "deploy-docs": "storybook-to-ghpages"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "@storybook/react": "^5.3.12",
+    "@storybook/storybook-deployer": "^2.8.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.0",
